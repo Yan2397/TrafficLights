@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.main{
+    margin:auto;
+    width:300px;
+    height: 100vh;
+    border: 5px groove #716d6d; 
+    border-radius: 120px;
+    background-image: linear-gradient(99deg, #4d4d4d 50%,#333 50%);
+    box-shadow: 20px 0px 35px #363434 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#red,#yellow,#green{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background-color: gray;
+    
+}
+#yellow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+   
+    
+}
+#s1{
+    font-size: 120px;
+    
+}
+#s2{
+    font-size: 120px;
+    
+}
+
+
+/* 
+
+.wrapper {
+	background:#333;
+	width: 150px;
+	height: 440px;
+	border-radius: 10px;
+	font-size: 70px;
+	text-align:center;
+	padding: 1px 0;
+	border: 6px solid #000;
+	margin: auto;
+    display: inline-block;
+}
+.circle {
+	background:#666;
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	margin-left: 15px;
+	margin-top: 20px;
+	line-height: 120px;
+	-webkit-transition: background-color 0.5s ease-out;
+	-o-transition: background-color 0.5s ease-out;
+	transition: background-color 0.5s ease-out;
+}
+/*Добавляем фоновый цвет*/
+/* .circleBGColor1 {
+	background-color: #f00;
+}
+.circleBGColor2 {
+	background-color: #ff0;
+}
+.circleBGColor3 {
+	background-color: #0f0;
+}
+/*Добавляем текстовый цвет*/
+/* .circleColor1 {
+	color: #f00;
+}
+.circleColor2 {
+	color: #0f0; */
